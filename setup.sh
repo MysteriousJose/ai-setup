@@ -13,9 +13,13 @@ export PATH="$PATH:/root/.local/bin"
 
 echo "3. Restoring settings..."
 # Create the config directory if it doesn't exist and copy your saved settings
-mkdir -p ~/.config/strata
-cp config.json ~/.config/strata/config.json
+mkdir -p ~/.config/strata/launch-presets
+mkdir -p ~/.config/strata/profiles
+
+cp config/settings.json ~/.config/strata/settings.json
+cp config/launch-presets/iq3_xxs-128k.json ~/.config/strata/launch-presets/iq3_xxs-128k.json
+cp config/profiles/launch-iq3_xxs-128k.json ~/.config/strata/profiles/launch-iq3_xxs-128k.json
 
 echo "4. Setup complete! Starting application..."
 # Command to run Strata
-strata --start
+strata --preset iq3_xxs-128k
