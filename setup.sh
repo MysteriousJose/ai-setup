@@ -22,4 +22,4 @@ cp config/profiles/launch-iq3_xxs-128k.json ~/.config/strata/profiles/launch-iq3
 
 echo "4. Setup complete! Starting application..."
 # Command to run Strata
-strata --preset iq3_xxs-128k
+strata launch --preset iq3_xxs-128k
