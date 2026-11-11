@@ -20,6 +20,9 @@ cp config/settings.json ~/.config/strata/settings.json
 cp config/launch-presets/iq3_xxs-128k.json ~/.config/strata/launch-presets/iq3_xxs-128k.json
 cp config/profiles/launch-iq3_xxs-128k.json ~/.config/strata/profiles/launch-iq3_xxs-128k.json
 
-echo "4. Setup complete! Starting application..."
+echo "4. Repairing file permissions..."
+strata repair-access
+
+echo "5. Setup complete! Starting application..."
 # Command to run Strata
 strata launch --preset iq3_xxs-128k
