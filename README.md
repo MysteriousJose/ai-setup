@@ -8,5 +8,5 @@ Run the following
 git clone https://github.com/MysteriousJose/ai-setup.git
 cd ai-setup
 chmod +x setup.sh
-./setup.sh
+sudo ./setup.sh
 ```
