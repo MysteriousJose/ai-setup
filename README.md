@@ -1,5 +1,5 @@
 # ai-setup
-This is just a little script i made to easier setup any continers i run with ai, it currently defaults to my iq3_xxs-128k Qwen-Flash_next model
+This is just a little script I made to easier setup any continers I run with ai, it currently defaults to my iq3_xxs-128k Qwen-Flash_next model, but has an option for my iq3_s-128k config. Both get above 90tps on a 3090.
 
 # Installation
 
@@ -10,3 +10,4 @@ cd ai-setup
 chmod +x setup.sh
 sudo ./setup.sh
 ```
+Then follow the prompts and you will be up and running.
