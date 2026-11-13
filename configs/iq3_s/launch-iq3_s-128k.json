@@ -1,0 +1,9 @@
+{
+  "id": "launch-iq3_s-128k",
+  "overrides": {
+    "host": "0.0.0.0",
+    "port": 8080
+  },
+  "schema_version": 1,
+  "source_config": "/root/.local/state/strata/launch/iq3_s-128k.json"
+}
